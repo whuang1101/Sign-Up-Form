@@ -53,6 +53,8 @@ img{
     background-color: black;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10rem;
 }
 .form-container {
     box-sizing: border-box;
