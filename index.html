@@ -21,13 +21,13 @@
         </div>
         <div class="form-side">
             <h1 class="top-right-header">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started!</h3>
-                <form action="">
+                <form action="" id = "first_form">
                     <h3>Let's do this!</h3>
                     <div class="real-form">
                         <div class="first">
                             <div class="one">
                                 <label for="first-name">FIRST NAME</label>
-                                <input type="text" id="first_name" name="first_name">
+                                <input type="text" id="first_name" name="first_name" required>
                             </div>
                             <div class="two">
                                 <label for="email">EMAIL</label>
@@ -35,7 +35,7 @@
                             </div>
                             <div class="three">
                                 <label for="password">PASSWORD</label>
-                                <input type="password" id="password" name="password">
+                                <input type="password" id="password" name="password" minlength="5">
                             </div>
                         </div>
                         <div class="last">
@@ -45,7 +45,7 @@
                             </div>
                             <div class="two-two">
                                 <label for="phone_number">PHONE NUMBER</label>
-                                <input type="text" id="phone_number" name="phone_number" required>
+                                <input type="text" id="phone_number" name="phone_number" required pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}" title = "Please enter a valid phone number like this XXX-XXX-XXXX">
                             </div>
                             <div class="two-three">
                                 <label for="confirm_password">CONFIRM PASSWORD</label>
